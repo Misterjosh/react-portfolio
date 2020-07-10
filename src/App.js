@@ -5,11 +5,12 @@ import Portfolio from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer";
 import MyNavbar from "./components/Navbar";
+import "../src/components/styles/app.css";
 
 function App() {
   return (
     <Router>
-      <div>
+      <div className="App">
         <MyNavbar />
         <Route exact path="/" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />
