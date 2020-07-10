@@ -1,7 +1,6 @@
 h1 {
     text-align: center;
-    margin-top: 10
-    px;
+    margin-top: 10px;
 }
 
 .me-photo {
@@ -11,10 +10,38 @@ h1 {
     padding-right: 10px;
   }
 
-  .logo {
+.logo {
     font-family: Georgia, Times, "Times New Roman", serif;
-  
+
     /* Typography */
     font-weight: bold;
     color: blue;
-  }
+}
+
+.block {
+    background-color: #fff;
+
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.block-header {
+    /* Typography */
+    color: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+}
+
+.cards {
+    padding-bottom: 25px;
+}
+
+.card-holder {
+    padding: 15px;
+    padding-bottom: 15px;
+}
+
+.non-header {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

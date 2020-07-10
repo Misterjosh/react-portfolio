@@ -3,3 +3,13 @@ h1 {
     margin-top: 10
     px;
 }
+
+.port-image {
+    margin: 20px auto;
+    width: 350px;
+    height: 350px;
+  }
+
+.pos {
+      margin: auto;
+  }
