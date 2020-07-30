@@ -8,7 +8,7 @@ export default function Contact() {
         <div className="container">
             <main>
                 <section className="row">
-                    <div className="col-md-8">
+                    <div className="col-md-12">
                         <article className="block">
                             <h1 className="block-header">Contact Me</h1>
                             <div>

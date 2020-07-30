@@ -12,7 +12,7 @@ export default function About() {
             
             <main>
                 <section className="row">
-                <div className="col-md-8">
+                <div className="col-md-12">
                     <article className="block">
                         <h1 className="block-header logo">About Me</h1>
                             <img src={seanconnery} 
@@ -48,7 +48,7 @@ export default function About() {
             
 <main className="container cards card-holder">
     <section className="row card-holder">
-        <div className="col-sm-6 col-md-6 col-lg-5">
+        <div className="col-sm-6 col-md-6 col-lg-6">
             <div className="card card-holder" style={{ width: "18rem" }}>
                 <img src={github} className="card-img-top" alt="Github Logo" />
                 <div className="card-body">
@@ -58,7 +58,7 @@ export default function About() {
                 </div>
             </div>
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-5">
+        <div className="col-sm-6 col-md-6 col-lg-6">
             <div className="card card-holder" style={{ width: "18rem" }}>
                 <img src={linkedIn} className="card-img-top" alt="Github Logo" />
                 <div className="card-body">
