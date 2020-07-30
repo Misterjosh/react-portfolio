@@ -17,3 +17,11 @@ h1 {
   .shadow{
     box-shadow: royalblue;
   }
+
+  p {
+    text-align: left;
+  }
+
+  .spanb {
+    font-weight: bold;
+  }
