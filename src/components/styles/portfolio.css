@@ -13,3 +13,7 @@ h1 {
 .pos {
       margin: auto;
   }
+
+  .shadow{
+    box-shadow: royalblue;
+  }
