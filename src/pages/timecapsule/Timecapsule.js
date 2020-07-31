@@ -18,7 +18,7 @@ export default function Timecapsule() {
                 <div className="col-md-12">
                     <article className="block">
                         <h1>Time Capsule</h1>
-                        <hr/>
+                        <hr />
                         <div className="row">
                             <div className="col-sm-6 col-md-12 col-lg-6">
                                     <img className="shadow img-fluid port-image" src={tc1} alt="Day planner"></img>

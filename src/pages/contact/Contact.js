@@ -11,6 +11,7 @@ export default function Contact() {
                     <div className="col-md-12">
                         <article className="block">
                             <h1 className="block-header">Contact Me</h1>
+                            <hr />
                             <div>
                             <img src={thankyou} 
                             data-toggle="tooltip" 
