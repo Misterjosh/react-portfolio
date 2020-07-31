@@ -102,7 +102,7 @@ export default function Portfolio() {
                                     We wanted to make a digital time capsule. You could put images, messages, and videos in it. You would choose who to send it to. 
                                     Pick a date to have it delivered. Then seal it, and it would be stored until delivery date.
                                     </p>
-                                    <p>Sadly we didn't get it completed or hosted. The image links to a page I made to describe and show what we did get done.
+                                    <p>Sadly, we didn't get it completed or hosted. The image links to a page I made to describe and show what we did get done.
                                     The code is available on <a href="https://github.com/JamesWalterHudeck/Project2-timeCapsule">Github</a>. 
                                     </p>
                             </div>
