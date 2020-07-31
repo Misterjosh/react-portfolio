@@ -1,12 +1,12 @@
 import React from 'react';
-import "../styles/about.css";
-import seanconnery from "../images/shelf.jpg";
+import "./home.css";
+import seanconnery from "../../images/shelf.jpg";
 import { UncontrolledCollapse, Button, CardBody, Card } from 'reactstrap';
-import github from "../images/github.png";
-import linkedIn from "../images/linkedin.png";
+import github from "../../images/github.png";
+import linkedIn from "../../images/linkedin.png";
 
 
-export default function About() {
+export default function Home() {
     return (
         <div className="container cards">
             

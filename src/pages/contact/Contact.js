@@ -1,7 +1,7 @@
 import React from 'react';
-import "../styles/contact.css";
-import thankyou from "../images/thankyou.jpg";
-import thumbsup from "../images/thumbsup.gif";
+import "./contact.css";
+import thankyou from "../../images/thankyou.jpg";
+import thumbsup from "../../images/thumbsup.gif";
 
 export default function Contact() {
     return (
