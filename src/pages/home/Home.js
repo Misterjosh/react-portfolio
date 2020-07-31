@@ -15,18 +15,23 @@ export default function Home() {
                 <div className="col-md-12">
                     <article className="block">
                         <h1 className="block-header logo">About Me</h1>
-                            <img src={seanconnery} 
-                            data-toggle="tooltip" 
-                            data-placement="bottom" 
-                            title="Filler Photo Until I have a more professional one available" 
-                            alt="A Sean Connery Shelf Meme" 
-                            className="me-photo"/>
-
-                                <p className="non-header">Hello. I am Joshua Brooks. I am a Full Stack Web Developer. 
+                        <hr />
+                        <div className="row">
+                            <div className="col">
+                                <img src={seanconnery} 
+                                data-toggle="tooltip" 
+                                data-placement="bottom" 
+                                title="Filler Photo Until I have a more professional one available" 
+                                alt="A Sean Connery Shelf Meme" 
+                                className="me-photo"/>
+                            </div>
+                            <div className="col">
+                                <p className="non-header">Hello. I am Joshua Brooks, a Full Stack Web Developer. 
                                 I have recently completed Case Western Reserve University's Coding Bootcamp. 
                                 I'm transitioning to a new careerfield, and look forward to learning and growing with your company.
                                 </p>
-
+                            </div>
+                        </div>
                     <div>
                         <Button color="primary" id="toggler" style={{ marginBottom: '1rem' }}>
                         Hobbies
@@ -48,7 +53,7 @@ export default function Home() {
             
 <main className="container cards card-holder">
     <section className="row card-holder">
-        <div className="col-sm-6 col-md-6 col-lg-6">
+        <div className="col-sm-6 col-md-6 col-lg-4">
             <div className="card card-holder" style={{ width: "18rem" }}>
                 <img src={github} className="card-img-top" alt="Github Logo" />
                 <div className="card-body">
@@ -58,7 +63,7 @@ export default function Home() {
                 </div>
             </div>
         </div>
-        <div className="col-sm-6 col-md-6 col-lg-6">
+        <div className="col-sm-6 col-md-6 col-lg-4">
             <div className="card card-holder" style={{ width: "18rem" }}>
                 <img src={linkedIn} className="card-img-top" alt="Github Logo" />
                 <div className="card-body">
