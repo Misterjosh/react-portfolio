@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../components/styles/navbar.css";
+import "./navbar.css";
 import {
   Collapse,
   Navbar,
