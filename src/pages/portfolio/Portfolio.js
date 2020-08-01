@@ -77,9 +77,9 @@ export default function Portfolio() {
                             </div>
                             <div className="col-sm-6 col-md-12 col-lg-6">
                                 <h5>What did you say?</h5>
-                                    <p>This app uses <span className="spanb">HTML5</span>, <span className="spanb">CSS3</span> , <span className="spanb">JavaScript</span>, 
-                                        <span className="spanb">Bootstrap</span>, <span className="spanb">Yandex API</span>, <span className="spanb">Google Books API</span>, 
-                                        <span className="spanb">Giphy API</span>, and <span className="spanb">Axios</span> to make API calls.
+                                    <p>This app uses <span className="spanb">HTML5</span>, <span className="spanb">CSS3</span>,<span className="spanb"> JavaScript</span>, 
+                                        <span className="spanb"> Bootstrap</span>, <span className="spanb">Yandex API</span>, <span className="spanb">Google Books API</span>, 
+                                        <span className="spanb"> Giphy API</span>, and <span className="spanb">Axios</span> to make API calls.
                                         This app allows you to translate from English to Chinese or Spanish.
                                     </p>
                                     <p>
