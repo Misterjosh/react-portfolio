@@ -29,7 +29,7 @@ export default function Portfolio() {
                             <div className="col-sm-6 col-md-12 col-lg-6">
                                 <h5>Work Day Scheduler</h5>
                                     <p>This app uses <span className="spanb">HTML5</span>, <span className="spanb">CSS3</span>, <span className="spanb">JavaScript</span>, 
-                                        <span className="spanb">Bootstrap</span>, <span className="spanb">Local Storage</span>, and the <span className="spanb">Moment.js</span> library. 
+                                        <span className="spanb"> Bootstrap</span>, <span className="spanb">Local Storage</span>, and the <span className="spanb">Moment.js</span> library. 
                                         It is a day planner that you can assign messages to.
                                     </p>
                                     <p>
@@ -55,7 +55,7 @@ export default function Portfolio() {
                             <div className="col-sm-6 col-md-12 col-lg-6">
                                 <h5>Weather Dashboard</h5>
                                     <p>This app uses <span className="spanb">HTML5</span>, <span className="spanb">JavaScript</span>, <span className="spanb">Bootstrap</span>, 
-                                        <span className="spanb">Local Storage</span>, <span className="spanb">Openweather API</span>, and <span className="spanb">Axios</span> to make API calls.
+                                        <span className="spanb"> Local Storage</span>, <span className="spanb">Openweather API</span>, and <span className="spanb">Axios</span> to make API calls.
                                         It gets the weather by city. It displays the current weather, 5 day forcast, and UV index.
                                     </p>
                                     <p>
