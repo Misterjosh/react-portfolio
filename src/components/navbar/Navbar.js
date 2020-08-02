@@ -25,9 +25,9 @@ const MyNavbar = (props) => {
             <NavItem>
                 <NavLink className="linkstyling" href="/">About Me</NavLink>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink className="linkstyling" href="/portfolio">Portfolio</NavLink>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
                 <NavLink className="linkstyling" href="/contact">Contact</NavLink>
               </NavItem>
