@@ -4,6 +4,7 @@ import seanconnery from "../../images/shelf.jpg";
 import { UncontrolledCollapse, Button, CardBody, Card } from 'reactstrap';
 import github from "../../images/github.png";
 import linkedIn from "../../images/linkedin.png";
+import Portfolio from "../../components/portfolio/Portfolio";
 
 
 export default function Home() {
@@ -30,27 +31,36 @@ export default function Home() {
                                 I have recently completed Case Western Reserve University's Coding Bootcamp. 
                                 I'm transitioning to a new careerfield, and look forward to learning and growing with your company.
                                 </p>
+                                <Button color="primary" id="toggler" style={{ marginBottom: '1rem' }}>
+                                Hobbies
+                                </Button>
+                                <UncontrolledCollapse toggler="#toggler">
+                                <Card>
+                                    <CardBody>
+                                    Baking desserts, blacksmithing, reading, playing games (board, card, and video),
+                                    travel (domestic and intenational), attending comic book conventions, learning new things, and coding. Just to list a few.
+                                    </CardBody>
+                                </Card>
+                                </UncontrolledCollapse>
                             </div>
                         </div>
-                    <div>
-                        <Button color="primary" id="toggler" style={{ marginBottom: '1rem' }}>
-                        Hobbies
-                        </Button>
-                        <UncontrolledCollapse toggler="#toggler">
-                        <Card>
-                            <CardBody>
-                            Baking desserts, blacksmithing, reading, playing games (board, card, and video),
-                             travel (domestic and intenational), attending comic book conventions, learning new things, and coding. Just to list a few.
-                            </CardBody>
-                        </Card>
-                        </UncontrolledCollapse>
-                    </div>
-
                     </article>
                     </div>
                 </section>
             </main>
-            
+
+
+<main>
+    <section className="row">
+        <div className="col-md-12">
+            <article className="block">
+                <Portfolio/>
+            </article>
+        </div>
+    </section>
+</main>
+
+
 <main className="container cards card-holder">
     <section className="row card-holder">
         <div className="col-sm-6 col-md-6 col-lg-4">
