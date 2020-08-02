@@ -46,3 +46,7 @@ h1 {
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+main {
+    padding-top: 25px;
+}
