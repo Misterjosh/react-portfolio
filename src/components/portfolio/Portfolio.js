@@ -80,6 +80,8 @@ export default function Portfolio() {
                                     <p>This app uses <span className="spanb">HTML5</span>, <span className="spanb">CSS3</span>,<span className="spanb"> JavaScript</span>, 
                                         <span className="spanb"> Bootstrap</span>, <span className="spanb">Yandex API</span>, <span className="spanb">Google Books API</span>, 
                                         <span className="spanb"> Giphy API</span>, and <span className="spanb">Axios</span> to make API calls.
+                                    </p>
+                                    <p>
                                         This app allows you to translate from English to Chinese or Spanish.
                                     </p>
                                     <p>
@@ -91,34 +93,48 @@ export default function Portfolio() {
                         </div>
                         <div className="row">
                         <div className="col-sm-6 col-md-12 col-lg-6">
-                                <a href="/timecapsule" data-toggle="tooltip" data-placement="top" title="" >
-                                    <img className="shadow img-fluid port-image" target="_blank" src={timecapsule} alt=""></img></a> 
+                                <a href="/timecapsule" data-toggle="tooltip" data-placement="top" title="" target="_blank" rel="noopener noreferrer">
+                                    <img className="shadow img-fluid port-image" target="_blank" src={timecapsule} alt="Time capsule"></img></a> 
                             </div>
                             <div className="col-sm-6 col-md-12 col-lg-6">
                                 <h5>Time Capsule</h5>
                                     <p>This app uses <span className="spanb">HTML5</span>, <span className="spanb">CSS3</span>, <span className="spanb">JavaScript</span>,  
                                     <span className="spanb"> Bootstrap</span>, a <span className="spanb">MySQL Database</span>, the <span className="spanb">Handlebars </span> 
-                                    templating engine, and <span className="spanb">Axios</span> to handle API calls to the <span className="spanb">OMDb API</span>.
-                                    We wanted to make a digital time capsule. You could put images, messages, and videos in it. You would choose who to send it to. 
-                                    Pick a date to have it delivered. Then seal it, and it would be stored until delivery date.
+                                    templating engine, <span className="spanb">OMDb API</span>, and <span className="spanb">Axios</span> to handle API calls. The server is a
+                                    <span className="spanb"> Node</span> server, controlled by <span className="spanb">Express</span> and controls the database with <span className="spanb">Sequelize</span>.
                                     </p>
-                                    <p>Sadly, we didn't get it completed or hosted. The image links to a page I made to describe and show what we did get done.
-                                    The code is available on <a href="https://github.com/JamesWalterHudeck/Project2-timeCapsule">Github</a>. 
+                                    <p>
+                                    We wanted to make a digital time capsule. You could put images, messages, and videos in. You would choose who to send it to, 
+                                    pick a date to have it delivered, seal it, and it would be stored until delivery date.
+                                    </p>
+                                    <p>We didn't get it completed or hosted. The image links to a page I made to describe and show what we did get done.
+                                    The code is available on <a href="https://github.com/JamesWalterHudeck/Project2-timeCapsule" target="_blank" rel="noopener noreferrer">Github</a>. 
                                     </p>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-sm-6 col-md-12 col-lg-6">
-                                <a href="/portfolio" data-toggle="tooltip" data-placement="top" title="" >
-                                    <img className="shadow img-fluid port-image" target="_blank" src={chickentinder} alt=""></img></a> 
+                                <a href="/" data-toggle="tooltip" data-placement="top" title="" target="_blank" rel="noopener noreferrer">
+                                    <img className="shadow img-fluid port-image" target="_blank" src={chickentinder} alt="Chicken Tinder"></img></a> 
                             </div>
                             <div className="col-sm-6 col-md-12 col-lg-6">
-                                <h5>Chicken Tinder</h5> 
+                                <h5>Chicken Tinder</h5>
+                                <p>This app uses <span className="spanb">JSX</span>, <span className="spanb">CSS3</span>, <span className="spanb">JavaScript</span>,  
+                                    <span className="spanb"> Bootstrap</span>, <span className="spanb">Reactstrap</span>, <span className="spanb">React</span>, a <span className="spanb">MongoDB</span> database,
+                                    <span className="spanb"> OpenTable API</span>, and <span className="spanb">Axios</span> to handle API calls. The server is a
+                                    <span className="spanb"> Node</span> server, controlled by <span className="spanb">Express</span> and controls the database with <span className="spanb">Mongoose</span>.
+                                </p>
+                                <p>
+                                    We wanted to make an app that allows people that can't decide on where to eat, pick a group of 5 places they like. Then compares the results and shows results if they have a match.
+                                </p>
+                                <p>
+                                    It isn't hosted yet, but the code is available on <a href="https://github.com/BethanyWebb/Final" target="_blank" rel="noopener noreferrer">Github</a>.
+                                </p>
                             </div>
                         </div>
                         {/* <div className="row">
                         <div className="col-sm-6 col-md-12 col-lg-6">
-                                <a href="/portfolio" data-toggle="tooltip" data-placement="top" title="" >
+                                <a href="/" data-toggle="tooltip" data-placement="top" title="" >
                                     <img className="shadow img-fluid port-image" target="_blank" src={photoFiller} alt=""></img></a> 
                             </div>
                             <div className="col-sm-6 col-md-12 col-lg-6">
