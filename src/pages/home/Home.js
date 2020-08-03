@@ -85,7 +85,7 @@ export default function Home() {
                         <div className="col-sm-8 col-md-8 col-lg-4">
                             <h5 className="card-title">My LinkedIn Profile</h5>
                             <p className="card-text">The button below will take you to my Linked in Profile. It will give you a better understanding of my employment history and education.</p>
-                            <a href="https://github.com/Misterjosh" target="_blank" rel="noopener noreferrer" className="btn btn-primary">To LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/joshua-brooks-web-developer/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">To LinkedIn</a>
                         </div>
                     </div>
                 </div> 
