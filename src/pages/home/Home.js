@@ -1,10 +1,10 @@
 import React from 'react';
 import "./home.css";
-import seanconnery from "../../images/shelf.jpg";
 import { UncontrolledCollapse, Button, CardBody, Card } from 'reactstrap';
 import github from "../../images/github.png";
 import linkedIn from "../../images/linkedin.png";
 import Portfolio from "../../components/portfolio/Portfolio";
+import me from "../../images/joshuabrooks.jpg";
 
 
 export default function Home() {
@@ -18,13 +18,13 @@ export default function Home() {
                         <h1 className="block-header logo">About Me</h1>
                         <hr />
                         <div className="row">
-                            <div className="col">
-                                <img src={seanconnery} 
+                            <div className="col me-photo">
+                                <img src={me} 
                                 data-toggle="tooltip" 
                                 data-placement="bottom" 
                                 title="Filler Photo Until I have a more professional one available" 
                                 alt="A Sean Connery Shelf Meme" 
-                                className="me-photo"/>
+                                className=""/>
                             </div>
                             <div className="col">
                                 <p className="non-header">Hello. I am Joshua Brooks, a Full Stack Web Developer. 
