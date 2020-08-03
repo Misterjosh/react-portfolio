@@ -31,6 +31,10 @@ export default function Home() {
                                 I have recently completed Case Western Reserve University's Coding Bootcamp. 
                                 I'm transitioning to a new careerfield, and look forward to learning and growing with your company.
                                 </p>
+                                <p><a href="https://docs.google.com/document/d/e/2PACX-1vR7wq8xjYManvf_xwTVXhRIzRmzaMno6gZ_fMUMdMbsynTuEnXwojPzef3BZvyZ4Q/pub" target="_blank" rel="noopener noreferrer">Here is a link to my resume</a>
+                                </p>
+                                <br />
+                                <p>
                                 <Button color="primary" id="toggler" style={{ marginBottom: '1rem' }}>
                                 Hobbies
                                 </Button>
@@ -42,6 +46,7 @@ export default function Home() {
                                     </CardBody>
                                 </Card>
                                 </UncontrolledCollapse>
+                                </p>
                             </div>
                         </div>
                     </article>
