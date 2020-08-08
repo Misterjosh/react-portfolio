@@ -24,11 +24,11 @@ export default function Contact() {
                             <p className="non-header">If you like what you have seen, feel free to reach out to me. If you hate what you have seen, feel free to reach out anyway. I'm always happy to pass along a copy of my resume.</p>
                             <h2>Please Click a link below</h2>
                             <ul className="non-header">
-                                <a href="mailto:defaultjosh@hotmail.com"><li>defaultjosh@hotmail.com</li></a>
-                                <a href="mailto:defautjoshua@gmail.com"><li>defaultjoshua@gmail.com</li></a>
-                                <a href="mailto:joshuaBrooks.developer@gmail.com"><li>joshuabrooks.developer@gmail.com</li></a>
-                                <a href="https://github.com/Misterjosh"><li>Github Profile - Misterjosh</li></a>
-                                <a href="https://www.linkedin.com/in/joshua-brooks-web-developer/"><li>LinkedIn - joshua-brooks-web-developer</li></a> 
+                                <li><a href="mailto:defaultjosh@hotmail.com">defaultjosh@hotmail.com</a></li>
+                                <li><a href="mailto:defautjoshua@gmail.com">defaultjoshua@gmail.com</a></li>
+                                <li><a href="mailto:joshuaBrooks.developer@gmail.com">joshuabrooks.developer@gmail.com</a></li>
+                                <li><a href="https://github.com/Misterjosh">Github Profile - Misterjosh</a></li>
+                                <li><a href="https://www.linkedin.com/in/joshua-brooks-web-developer/">LinkedIn - joshua-brooks-web-developer</a></li> 
                             </ul>
                             <div>
                              <img src={thumbsup} 
