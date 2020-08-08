@@ -1,4 +1,6 @@
 .App {
     text-align: center;
     background-image: url(../images/numbers.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
