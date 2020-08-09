@@ -16,7 +16,6 @@ h2 {
   }
   
 .block-header {
-/* Typography */
     color: #4aaaa5;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
@@ -25,18 +24,4 @@ h2 {
 .non-header {
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.me-photo {
-    width: 225px;
-    height: 275px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-}
-
-.notme-photo {
-    width: 100%;
-    /* height: 275px; */
-    padding-bottom: 10px;
-    padding-right: 10px;
 }
