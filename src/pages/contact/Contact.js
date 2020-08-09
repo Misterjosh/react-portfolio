@@ -13,7 +13,7 @@ export default function Contact() {
                         <article className="block">
                             <h1 className="block-header">Contact Me</h1>
                             <hr />
-                            <h3 className="non-header">If you like what you have seen, feel free to reach out to me. I'm always happy to pass along a copy of my resume.</h3>
+                            <h3 className="non-header">If you like what you've seen, reach out. I'm always happy to pass along a copy of my resume.</h3>
                             <h4>Please Click a link below</h4>
                             <div className="row">
                                 <div className="col-sm-6 col-md-6 col-lg-6">
@@ -21,8 +21,8 @@ export default function Contact() {
                                     data-toggle="tooltip" 
                                     data-placement="bottom" 
                                     title="Thanks for stopping by" 
-                                    alt="A thank you" id="A Sean Connery Shelf Meme" 
-                                    className="me-photo"/>
+                                    alt="A neon light of the words thank you"
+                                    className=""/>
                                 </div>
                                 <div className="col-sm-6 col-md-6 col-lg-6">
                                 <ul className="non-header">
