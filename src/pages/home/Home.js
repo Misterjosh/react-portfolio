@@ -18,8 +18,8 @@ export default function Home() {
                                 <img src={me} 
                                 data-toggle="tooltip" 
                                 data-placement="bottom" 
-                                title="Filler Photo Until I have a more professional one available" 
-                                alt="Joshua Brooks squinting once again" 
+                                title="Me" 
+                                alt="Joshua Brooks in front of a pine tree squinting once again" 
                                 className=""/>
                             </div>
                             <div className="col">
