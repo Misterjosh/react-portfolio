@@ -1,6 +1,15 @@
 .block-header {
-    /* Typography */
     color: #4aaaa5;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
 }
+
+.port-image {
+    margin: 20px auto;
+    width: 350px;
+    height: 350px;
+  }
+
+  .shadow{
+    box-shadow: royalblue;
+  }
