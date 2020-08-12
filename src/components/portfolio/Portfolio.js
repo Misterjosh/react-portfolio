@@ -60,7 +60,7 @@ export default function Portfolio() {
                                     </p>
                                     <p>
                                         The image has an imbedded link to the app. The code is available on 
-                                        <a href="https://github.com/Misterjosh/Misterjosh.github.io/tree/master/Homework-06-WeatherApp" target="_blank" rel="noopener noreferrer"> Github</a>.
+                                        <a href="https://github.com/Misterjosh/weather-dashboard-redone" target="_blank" rel="noopener noreferrer"> Github</a>.
                                     </p> 
                             </div>
                         </div>
