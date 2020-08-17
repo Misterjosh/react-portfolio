@@ -78,16 +78,15 @@ export default function Portfolio() {
                             <div className="col-sm-6 col-md-12 col-lg-6">
                                 <h5>What did you say?</h5>
                                     <p>This app uses <span className="spanb">HTML5</span>, <span className="spanb">CSS3</span>,<span className="spanb"> JavaScript</span>, 
-                                        <span className="spanb"> Bootstrap</span>, <span className="spanb">Yandex API</span>, <span className="spanb">Google Books API</span>, 
-                                        <span className="spanb"> Giphy API</span>, and <span className="spanb">Axios</span> to make API calls.
+                                        <span className="spanb"> Bootstrap</span>, <span className="spanb">Yandex API</span>, <span className="spanb">Google APIs</span>
+                                        , and <span className="spanb">Axios</span> to make API calls.
                                     </p>
                                     <p>
-                                        This app allows you to translate from English to Chinese or Spanish.
+                                        This app allows you to translate from English to 93 other languages.
                                     </p>
                                     <p>
-                                        The image has an imbedded link to the app. This was my first group project. We managed it poorly on Github and all the commits are under one person(not me). 
-                                        I uploaded a copy of our work to my repository. The code is available on 
-                                        <a href="https://github.com/Misterjosh/Misterjosh.github.io/tree/master/Project-1%20-translation-app" target="_blank" rel="noopener noreferrer"> Github</a>.
+                                        The image has an imbedded link to the app. This was my first group project. We didn't get it to where I wanted it. I decided to reworked it. The code is available on 
+                                        <a href="https://github.com/Misterjosh/translation-app-upgrade" target="_blank" rel="noopener noreferrer"> Github</a>.
                                     </p> 
                             </div>
                         </div>
