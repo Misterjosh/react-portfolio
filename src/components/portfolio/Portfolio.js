@@ -1,6 +1,6 @@
 import React from 'react';
 import "./portfolio.css";
-import dayplanner from "../../images/DayPlanner.png";
+// import dayplanner from "../../images/DayPlanner.png";
 import translator from "../../images/TranslationApp.png";
 import weather from "../../images/WeatherApp.png";
 import timecapsule from "../../images/timecapsule/timecapsule1.png";
@@ -15,7 +15,7 @@ export default function Portfolio() {
                     <article className="block">
                         <h1 className="block-header">My Portfolio</h1>
                         <hr />
-                        <div className="row">
+                        {/* <div className="row">
                             <div className="col-sm-6 col-md-12 col-lg-6">
                                 <a href="https://misterjosh.github.io/Homework%2005%20-%20Weekday%20Scheduler%20(3rd%20Party%20APIs)/Develop/index.html" 
                                     data-toggle="tooltip" 
@@ -40,7 +40,7 @@ export default function Portfolio() {
                                         </a>.
                                     </p>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="row">
                         <div className="col-sm-6 col-md-12 col-lg-6">
                                 <a href="https://misterjosh.github.io/Homework-06-WeatherApp/index.html" 
@@ -66,14 +66,14 @@ export default function Portfolio() {
                         </div>
                         <div className="row">
                         <div className="col-sm-6 col-md-12 col-lg-6">
-                                <a href="https://misterjosh.github.io/Project-1%20-translation-app/index.html" 
+                                {/* <a href="https://misterjosh.github.io/Project-1%20-translation-app/index.html" 
                                     data-toggle="tooltip" 
                                     data-placement="top" 
                                     title="" 
                                     target="_blank" 
-                                    rel="noopener noreferrer">
+                                    rel="noopener noreferrer"> */}
                                     <img className="shadow img-fluid port-image" target="_blank" src={translator} alt="What did you say? Translation app"></img>
-                                </a> 
+                                {/* </a>  */}
                             </div>
                             <div className="col-sm-6 col-md-12 col-lg-6">
                                 <h5>What did you say?</h5>
@@ -82,18 +82,19 @@ export default function Portfolio() {
                                         , and <span className="spanb">Axios</span> to make API calls.
                                     </p>
                                     <p>
-                                        This app allows you to translate from English to 93 other languages.
+                                        This app used to translate from English to 93 other languages.
                                     </p>
                                     <p>
-                                        The image has an imbedded link to the app. This was my first group project. We didn't get it to where I wanted it. I decided to reworked it. The code is available on 
-                                        <a href="https://github.com/Misterjosh/translation-app-upgrade" target="_blank" rel="noopener noreferrer"> Github</a>.
+                                        This was my first group project. Yandex shut down our API key and it hasn't worked since. My code is available on 
+                                        <a href="https://github.com/Misterjosh/translation-app-upgrade" target="_blank" rel="noopener noreferrer"> Github</a>. Feel free to look at my work.
                                     </p> 
                             </div>
                         </div>
                         <div className="row">
                         <div className="col-sm-6 col-md-12 col-lg-6">
-                                <a href="/timecapsule" data-toggle="tooltip" data-placement="top" title="" target="_blank" rel="noopener noreferrer">
-                                    <img className="shadow img-fluid port-image" target="_blank" src={timecapsule} alt="Time capsule"></img></a> 
+                                {/* <a href="/timecapsule" data-toggle="tooltip" data-placement="top" title="" target="_blank" rel="noopener noreferrer"> */}
+                                    <img className="shadow img-fluid port-image" target="_blank" src={timecapsule} alt="Time capsule"></img>
+                                    {/* </a>  */}
                             </div>
                             <div className="col-sm-6 col-md-12 col-lg-6">
                                 <h5>Time Capsule</h5>
@@ -106,15 +107,15 @@ export default function Portfolio() {
                                     We wanted to make a digital time capsule. You could put images, messages, and videos in. You would choose who to send it to, 
                                     pick a date to have it delivered, seal it, and it would be stored until delivery date.
                                     </p>
-                                    <p>We didn't get it completed or hosted. The image links to a page I made to describe and show what we did get done.
-                                    The code is available on <a href="https://github.com/JamesWalterHudeck/Project2-timeCapsule" target="_blank" rel="noopener noreferrer">Github</a>. 
+                                    <p>We didn't get it completed or hosted. It wasn't my repo and will most likely never be functional. 
+                                    My code is available on <a href="https://github.com/JamesWalterHudeck/Project2-timeCapsule" target="_blank" rel="noopener noreferrer">Github</a>. 
                                     </p>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-sm-6 col-md-12 col-lg-6">
-                                <a href="/" data-toggle="tooltip" data-placement="top" title="" target="_blank" rel="noopener noreferrer">
-                                    <img className="shadow img-fluid port-image" target="_blank" src={chickentinder} alt="Chicken Tinder"></img></a> 
+                                {/* <a href="/" data-toggle="tooltip" data-placement="top" title="" target="_blank" rel="noopener noreferrer"></a>  */}
+                                    <img className="shadow img-fluid port-image" target="_blank" src={chickentinder} alt="Chicken Tinder"></img>
                             </div>
                             <div className="col-sm-6 col-md-12 col-lg-6">
                                 <h5>Chicken Tinder</h5>
@@ -127,7 +128,7 @@ export default function Portfolio() {
                                     We wanted to make an app that allows people that can't decide on where to eat, pick a group of 5 places they like. Then compares the results and shows results if they have a match.
                                 </p>
                                 <p>
-                                    It isn't hosted yet, but the code is available on <a href="https://github.com/BethanyWebb/Final" target="_blank" rel="noopener noreferrer">Github</a>.
+                                    It isn't hosted(not my repo again). If you want, I can demo it locally. Also, the code is available on <a href="https://github.com/BethanyWebb/Final" target="_blank" rel="noopener noreferrer">Github</a>.
                                 </p>
                             </div>
                         </div>

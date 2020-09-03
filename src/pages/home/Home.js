@@ -11,7 +11,7 @@ export default function Home() {
                 <section className="row">
                 <div className="col-md-12">
                     <article className="block">
-                        <h1 className="block-header logo">About Me</h1>
+                        <h1 className="block-header logo">Joshua Brooks</h1>
                         <hr />
                         <div className="row">
                             <div className="col me-photo">
@@ -23,11 +23,13 @@ export default function Home() {
                                 className=""/>
                             </div>
                             <div className="col">
-                                <p className="non-header">Hello. I am Joshua Brooks, a Full Stack Web Developer. 
-                                I have recently completed Case Western Reserve University's Coding Bootcamp. 
-                                I'm transitioning to a new careerfield, and look forward to learning and growing with your company.
+                                <p className="non-header">Full Stack Web Developer with extensive experience in Aviation. </p>
+                                <p className="non-header">Trained at Case Western Reserve University’s Coding Bootcamp. </p>
+                                <p className="non-header">Earned a Certificate in Full Stack Web Development. </p>
+                                <p className="non-header">Looking to transfer applied experience with Hard Deadlines, Demanding and Diverse Clientele, and Quickly Adapting to Resolve Unknown and Persistent Issues. </p>
+                                <p className="non-header">Mixing past experience with new knowledge of Building Responsive Web Sites, Writing Highly Functional JavaScript, and Manipulating a variety of Databases.
                                 </p>
-                                <p><a href="https://docs.google.com/document/d/e/2PACX-1vR7wq8xjYManvf_xwTVXhRIzRmzaMno6gZ_fMUMdMbsynTuEnXwojPzef3BZvyZ4Q/pub" target="_blank" rel="noopener noreferrer">Here is a link to my resume</a>
+                                <p ><a href="https://docs.google.com/document/d/e/2PACX-1vR7wq8xjYManvf_xwTVXhRIzRmzaMno6gZ_fMUMdMbsynTuEnXwojPzef3BZvyZ4Q/pub" target="_blank" rel="noopener noreferrer">Here is a link to my resume</a>
                                 </p>
                                 <br />
                                 <p>

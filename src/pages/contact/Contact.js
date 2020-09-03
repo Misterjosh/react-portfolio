@@ -13,23 +13,31 @@ export default function Contact() {
                         <article className="block">
                             <h1 className="block-header">Contact Me</h1>
                             <hr />
-                            <h3 className="non-header">If you like what you've seen, reach out. I'm always happy to pass along a copy of my resume.</h3>
-                            <h4>Please Click a link below</h4>
-                            <div className="row">
-                                <div className="col-sm-6 col-md-6 col-lg-6">
-                                    <img src={thankyou} 
+                            <img src={thankyou} 
                                     data-toggle="tooltip" 
                                     data-placement="bottom" 
                                     title="Thanks for stopping by" 
                                     alt="A neon light of the words thank you"
                                     className=""/>
+                                    <h3 className="non-header">If you like what you've seen, you can reach me at <a href="mailto:defautjoshua@gmail.com">defaultjoshua@gmail.com</a>.</h3>
+                            {/* <h4>Please Click a link below</h4> */}
+                            <div className="row">
+                                <div className="col-sm-6 col-md-6 col-lg-6">
+                                    {/* <img src={thankyou} 
+                                    data-toggle="tooltip" 
+                                    data-placement="bottom" 
+                                    title="Thanks for stopping by" 
+                                    alt="A neon light of the words thank you"
+                                    className=""/> */}
                                 </div>
                                 <div className="col-sm-6 col-md-6 col-lg-6">
-                                <ul className="non-header">
-                                    <li><a href="mailto:defaultjosh@hotmail.com">defaultjosh@hotmail.com</a></li>
-                                    <li><a href="mailto:defautjoshua@gmail.com">defaultjoshua@gmail.com</a></li>
-                                    <li><a href="mailto:joshuaBrooks.developer@gmail.com">joshuabrooks.developer@gmail.com</a></li>
-                                </ul>
+                                {/* <ul className="non-header"> */}
+                                    {/* <li><a href="mailto:defaultjosh@hotmail.com">defaultjosh@hotmail.com</a></li> */}
+                                    {/* <li> */}
+                                        {/* <a href="mailto:defautjoshua@gmail.com">defaultjoshua@gmail.com</a> */}
+                                    {/* </li> */}
+                                    {/* <li><a href="mailto:joshuaBrooks.developer@gmail.com">joshuabrooks.developer@gmail.com</a></li> */}
+                                {/* </ul> */}
                                 </div>
                             </div>
                         </article>
