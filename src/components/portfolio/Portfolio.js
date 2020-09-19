@@ -1,13 +1,12 @@
 import React from 'react';
 import "./portfolio.css";
-// import dayplanner from "../../images/DayPlanner.png";
 import translator from "../../images/TranslationApp.png";
 import weather from "../../images/WeatherApp.png";
 import timecapsule from "../../images/timecapsule/timecapsule1.png";
 import chickentinder from "../../images/chickentinder.png";
+// if needed const photoFiller = "https://via.placeholder.com/350x350";
 
 export default function Portfolio() {
-    // const photoFiller = "https://via.placeholder.com/350x350";
     return (
         <div className="container">
             <main className="row pos">
@@ -15,32 +14,6 @@ export default function Portfolio() {
                     <article className="block">
                         <h1 className="block-header">My Portfolio</h1>
                         <hr />
-                        {/* <div className="row">
-                            <div className="col-sm-6 col-md-12 col-lg-6">
-                                <a href="https://misterjosh.github.io/Homework%2005%20-%20Weekday%20Scheduler%20(3rd%20Party%20APIs)/Develop/index.html" 
-                                    data-toggle="tooltip" 
-                                    data-placement="top" 
-                                    title="" 
-                                    target="_blank" 
-                                    rel="noopener noreferrer">
-                                    <img className="shadow img-fluid port-image" target="_blank" src={dayplanner} alt="Day planner"></img>
-                                </a> 
-                            </div>
-                            <div className="col-sm-6 col-md-12 col-lg-6">
-                                <h5>Work Day Scheduler</h5>
-                                    <p>This app uses <span className="spanb">HTML5</span>, <span className="spanb">CSS3</span>, <span className="spanb">JavaScript</span>, 
-                                        <span className="spanb"> Bootstrap</span>, <span className="spanb">Local Storage</span>, and the <span className="spanb">Moment.js</span> library. 
-                                        It is a day planner that you can assign messages to.
-                                    </p>
-                                    <p>
-                                        The image has an imbedded link to the app. The code is available on 
-                                        <a href="https://github.com/Misterjosh/Misterjosh.github.io/tree/master/Homework%2005%20-%20Weekday%20Scheduler%20(3rd%20Party%20APIs)" 
-                                        target="_blank" 
-                                        rel="noopener noreferrer"> Github
-                                        </a>.
-                                    </p>
-                            </div>
-                        </div> */}
                         <div className="row">
                         <div className="col-sm-6 col-md-12 col-lg-6">
                                 <a href="https://misterjosh.github.io/Homework-06-WeatherApp/index.html" 
@@ -49,7 +22,7 @@ export default function Portfolio() {
                                     title="" 
                                     target="_blank" 
                                     rel="noopener noreferrer">
-                                    <img className="shadow img-fluid port-image" target="_blank" src={weather} alt="Weather Dashboard"></img>
+                                    <img loading="lazy" className="shadow img-fluid port-image" target="_blank" src={weather} alt="Weather Dashboard"></img>
                                 </a> 
                             </div>
                             <div className="col-sm-6 col-md-12 col-lg-6">
@@ -65,15 +38,8 @@ export default function Portfolio() {
                             </div>
                         </div>
                         <div className="row">
-                        <div className="col-sm-6 col-md-12 col-lg-6">
-                                {/* <a href="https://misterjosh.github.io/Project-1%20-translation-app/index.html" 
-                                    data-toggle="tooltip" 
-                                    data-placement="top" 
-                                    title="" 
-                                    target="_blank" 
-                                    rel="noopener noreferrer"> */}
-                                    <img className="shadow img-fluid port-image" target="_blank" src={translator} alt="What did you say? Translation app"></img>
-                                {/* </a>  */}
+                        <div className="col-sm-6 col-md-12 col-lg-6">                               
+                                    <img loading="lazy" className="shadow img-fluid port-image" target="_blank" src={translator} alt="What did you say? Translation app"></img>
                             </div>
                             <div className="col-sm-6 col-md-12 col-lg-6">
                                 <h5>What did you say?</h5>
@@ -92,9 +58,7 @@ export default function Portfolio() {
                         </div>
                         <div className="row">
                         <div className="col-sm-6 col-md-12 col-lg-6">
-                                {/* <a href="/timecapsule" data-toggle="tooltip" data-placement="top" title="" target="_blank" rel="noopener noreferrer"> */}
-                                    <img className="shadow img-fluid port-image" target="_blank" src={timecapsule} alt="Time capsule"></img>
-                                    {/* </a>  */}
+                                    <img loading="lazy" className="shadow img-fluid port-image" target="_blank" src={timecapsule} alt="Time capsule"></img>
                             </div>
                             <div className="col-sm-6 col-md-12 col-lg-6">
                                 <h5>Time Capsule</h5>
@@ -114,8 +78,7 @@ export default function Portfolio() {
                         </div>
                         <div className="row">
                             <div className="col-sm-6 col-md-12 col-lg-6">
-                                {/* <a href="/" data-toggle="tooltip" data-placement="top" title="" target="_blank" rel="noopener noreferrer"></a>  */}
-                                    <img className="shadow img-fluid port-image" target="_blank" src={chickentinder} alt="Chicken Tinder"></img>
+                                    <img loading="lazy" className="shadow img-fluid port-image" target="_blank" src={chickentinder} alt="Chicken Tinder"></img>
                             </div>
                             <div className="col-sm-6 col-md-12 col-lg-6">
                                 <h5>Chicken Tinder</h5>
@@ -132,15 +95,6 @@ export default function Portfolio() {
                                 </p>
                             </div>
                         </div>
-                        {/* <div className="row">
-                        <div className="col-sm-6 col-md-12 col-lg-6">
-                                <a href="/" data-toggle="tooltip" data-placement="top" title="" >
-                                    <img className="shadow img-fluid port-image" target="_blank" src={photoFiller} alt=""></img></a> 
-                            </div>
-                            <div className="col-sm-6 col-md-12 col-lg-6">
-                                <h5>Lorem ipsum</h5>
-                            </div>
-                        </div> */}
                     </article>
                 </div>
             </main>
