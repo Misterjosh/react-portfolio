@@ -1,21 +1,10 @@
 h1 {
     text-align: center;
-    margin-top: 10
-    px;
+    margin-top: 10px;
 }
-
-.port-image {
-    margin: 20px auto;
-    width: 350px;
-    height: 350px;
-  }
 
 .pos {
       margin: auto;
-  }
-
-  .shadow{
-    box-shadow: royalblue;
   }
 
   p {
@@ -25,3 +14,10 @@ h1 {
   .spanb {
     font-weight: bold;
   }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    box-shadow: royalblue;
+}

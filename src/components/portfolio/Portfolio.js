@@ -22,7 +22,7 @@ export default function Portfolio() {
                                     title="" 
                                     target="_blank" 
                                     rel="noopener noreferrer">
-                                    <img loading="lazy" className="shadow img-fluid port-image" target="_blank" src={weather} alt="Weather Dashboard"></img>
+                                    <img loading="lazy" className="shadow" target="_blank" src={weather} alt="Weather Dashboard"></img>
                                 </a> 
                             </div>
                             <div className="col-sm-6 col-md-12 col-lg-6">
@@ -39,7 +39,7 @@ export default function Portfolio() {
                         </div>
                         <div className="row">
                         <div className="col-sm-6 col-md-12 col-lg-6">                               
-                                    <img loading="lazy" className="shadow img-fluid port-image" target="_blank" src={translator} alt="What did you say? Translation app"></img>
+                                    <img loading="lazy" className="shadow" target="_blank" src={translator} alt="What did you say? Translation app"></img>
                             </div>
                             <div className="col-sm-6 col-md-12 col-lg-6">
                                 <h5>What did you say?</h5>
