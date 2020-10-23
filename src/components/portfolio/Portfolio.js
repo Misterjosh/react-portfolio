@@ -2,7 +2,7 @@ import React from 'react';
 import "./portfolio.css";
 import translator from "../../images/TranslationApp.png";
 import weather from "../../images/WeatherApp.png";
-import timecapsule from "../../images/timecapsule/timecapsule1.png";
+import timecapsule from "../../images/timecapsule1.png";
 import chickentinder from "../../images/chickentinder.png";
 // if needed const photoFiller = "https://via.placeholder.com/350x350";
 
@@ -38,8 +38,15 @@ export default function Portfolio() {
                             </div>
                         </div>
                         <div className="row">
-                        <div className="col-sm-6 col-md-12 col-lg-6">                               
+                        <div className="col-sm-6 col-md-12 col-lg-6">
+                                <a href="https://misterjosh.github.io/Project-1%20-translation-app/index.html" 
+                                    data-toggle="tooltip" 
+                                    data-placement="top" 
+                                    title="" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer">                               
                                     <img loading="lazy" className="shadow" target="_blank" src={translator} alt="What did you say? Translation app"></img>
+                                </a>
                             </div>
                             <div className="col-sm-6 col-md-12 col-lg-6">
                                 <h5>What did you say?</h5>
@@ -48,10 +55,10 @@ export default function Portfolio() {
                                         , and <span className="spanb">Axios</span> to make API calls.
                                     </p>
                                     <p>
-                                        This app used to translate from English to 93 other languages.
+                                        This app translates from English to 93 other languages. If it doesn't, the monthly API call limit has been reached.
                                     </p>
                                     <p>
-                                        This was my first group project. Yandex shut down our API key and it hasn't worked since. My code is available on 
+                                        This was my first group project. In order to make it my own, started over and wrote all the code. Heavy refactoring on the Java Script. My code is available on 
                                         <a href="https://github.com/Misterjosh/translation-app-upgrade" target="_blank" rel="noopener noreferrer"> Github</a>. Feel free to look at my work.
                                     </p> 
                             </div>
