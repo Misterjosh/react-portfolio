@@ -13,7 +13,7 @@ export default function Portfolio() {
                         <hr />
                         <div>
                             {portfolioItems.map(function(item) {
-                                if (item.picLink) {
+                                if (item.picLink && item.githubText) {
                                     return (
                                         <div className="row" key={item.objectId}>
                                             <div className="col-sm-6 col-md-12 col-lg-6">
@@ -36,7 +36,33 @@ export default function Portfolio() {
                                                 <h5>{item.name}</h5>
                                                 <p>{item.discription}</p>
                                                 <p>{item.additional}</p>
-                                                <p>{item.githubText} <a href={item.github} target="_blank" rel="noopener noreferrer">Github</a>.</p>
+                                                <p>{item.githubText} <a href={item.github} target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>.</p>
+                                            </div>
+                                        </div>
+                                        );
+                                } else if (item.picLink && !item.githubText) {
+                                    return (
+                                        <div className="row" key={item.objectId}>
+                                            <div className="col-sm-6 col-md-12 col-lg-6">
+                                                <a href={item.workingLink} 
+                                                    data-toggle="tooltip" 
+                                                    data-placement="top" 
+                                                    title="" 
+                                                    target="_blank" 
+                                                    rel="noopener noreferrer">                               
+                                                    <img 
+                                                        loading="lazy" 
+                                                        className="shadow" 
+                                                        target="_blank" 
+                                                        src={item.image} 
+                                                        alt={item.name}>
+                                                    </img>
+                                                </a>
+                                            </div>
+                                            <div className="col-sm-6 col-md-12 col-lg-6">
+                                                <h5>{item.name}</h5>
+                                                <p>{item.discription}</p>
+                                                <p>{item.additional}</p>
                                             </div>
                                         </div>
                                         );
@@ -55,11 +81,11 @@ export default function Portfolio() {
                                                 <h5>{item.name}</h5>
                                                 <p>{item.discription}</p>
                                                 <p>{item.additional}</p>
-                                                <p>{item.githubText} <a href={item.github} target="_blank" rel="noopener noreferrer">Github</a>.</p>
+                                                <p>{item.githubText} <a href={item.github} target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>.</p>
                                             </div>
                                         </div>
                                         );
-                                }
+                                 }
                             })}
                         </div>
                     </article>
