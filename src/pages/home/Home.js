@@ -1,8 +1,9 @@
 import React from 'react';
 import "./home.css";
-import { UncontrolledCollapse, Button, CardBody, Card } from 'reactstrap';
+// import { UncontrolledCollapse, Button, CardBody, Card } from 'reactstrap';
 import Portfolio from "../../components/portfolio/Portfolio";
 import me from "../../images/joshuabrooks.jpg";
+import bootcamp from "../../images/cwru-bootcamp.png"
 
 export default function Home() {
     return (
@@ -20,19 +21,27 @@ export default function Home() {
                                 data-placement="bottom" 
                                 title="Me" 
                                 alt="Joshua Brooks in front of a pine tree squinting once again" 
-                                className=""/>
+                                className=""
+                                />
                             </div>
                             <div className="col">
-                                <p className="non-header">Full Stack Web Developer with extensive experience in Aviation. </p>
-                                <p className="non-header">Trained at Case Western Reserve University’s Coding Bootcamp. </p>
-                                <p className="non-header">Earned a Certificate in Full Stack Web Development. </p>
-                                <p className="non-header">Looking to transfer applied experience with Hard Deadlines, Demanding and Diverse Clientele, and Quickly Adapting to Resolve Unknown and Persistent Issues. </p>
-                                <p className="non-header">Mixing past experience with new knowledge of Building Responsive Web Sites, Writing Highly Functional JavaScript, and Manipulating a variety of Databases.
-                                </p>
-                                <p ><a href="https://docs.google.com/document/d/e/2PACX-1vR7wq8xjYManvf_xwTVXhRIzRmzaMno6gZ_fMUMdMbsynTuEnXwojPzef3BZvyZ4Q/pub" target="_blank" rel="noopener noreferrer">Here is a link to my resume</a>
-                                </p>
-                                <br />
-                                <p>
+                                <a  href="https://bootcamp.case.edu/coding/"  
+                                    data-toggle="tooltip" 
+                                    data-placement="top" 
+                                    title="" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                >
+                                    <img src={bootcamp} 
+                                        data-toggle="tooltip" 
+                                        data-placement="bottom" 
+                                        title="My Fullstack Developer Certification from Case Western Reserve University" 
+                                        alt="Full Stack Web Development Certification from Case Western Reserve University for Joshua Brooks" 
+                                        className=""
+                                        style={{ border: "1px solid black"}}
+                                    />
+                                </a>
+                                {/* <p>
                                 <Button color="primary" id="toggler" style={{ marginBottom: '1rem' }}>
                                 Hobbies
                                 </Button>
@@ -44,8 +53,17 @@ export default function Home() {
                                     </CardBody>
                                 </Card>
                                 </UncontrolledCollapse>
-                                </p>
+                                </p> */}
                             </div>
+                        </div>
+                        <hr />
+                        <div className="row">
+                                <p>Hello there! I am Joshua, most call me Josh. I don't favor one over the other.</p> 
+                                <p>I have transitioned to Full Stack Web Development from a career in Avation.</p>
+                                <p>I currently develop using <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>JavaScript</strong>. 
+                                    I am trained as a <strong>M.E.R.N. Stack Developer</strong>. 
+                                    That is <strong>MySQL Express React Node</strong>, as well as <strong>MongoDB Express React Node</strong>.</p>
+                                <p>You will find a portfolio containing some of my work below.</p>
                         </div>
                     </article>
                     </div>
