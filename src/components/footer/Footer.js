@@ -6,7 +6,7 @@ export default function Footer() {
         <footer className="footer">
             <div className="two-toned-footer-color">
                 <p className="text-muted-footer text-center">
-                    &copy; Copyright 2020 Joshua Brooks
+                <i class="far fa-copyright"></i> Copyright 2020 Joshua Brooks
                 </p> 
             </div>
         </footer>
