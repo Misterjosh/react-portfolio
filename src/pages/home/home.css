@@ -33,7 +33,8 @@ h1 {
 }
 
 .cards {
-    padding-bottom: 25px;
+    padding-bottom: 75px;
+    padding-top: 25px
 }
 
 .card-holder {
