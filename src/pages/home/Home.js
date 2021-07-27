@@ -1,6 +1,6 @@
 import React from 'react';
 import "./home.css";
-// import { UncontrolledCollapse, Button, CardBody, Card } from 'reactstrap';
+import { UncontrolledCollapse, Button, CardBody, Card } from 'reactstrap';
 import Portfolio from "../../components/portfolio/Portfolio";
 import me from "../../images/joshuabrooks.jpg";
 import bootcamp from "../../images/cwru-bootcamp.png";
@@ -25,6 +25,19 @@ export default function Home() {
                                 alt="Joshua Brooks in front of a pine tree squinting once again" 
                                 className=""
                                 />
+                            <p style={{textAlign: "center"}}>
+                                <Button color="primary" id="toggler" style={{ marginBottom: '1rem' }}>
+                                More about me (Hobbies)
+                                </Button>
+                                <UncontrolledCollapse toggler="#toggler">
+                                <Card>
+                                    <CardBody>
+                                    Baking desserts, blacksmithing, reading, playing games (board, card, and video),
+                                    travel (domestic and intenational), attending comic book conventions, learning new things, and coding. Just to list a few.
+                                    </CardBody>
+                                </Card>
+                                </UncontrolledCollapse>
+                                </p>
                             </div>
                             <div className="col">
                                 <a  href="https://bootcamp.case.edu/coding/"  
@@ -43,29 +56,15 @@ export default function Home() {
                                         style={{ border: "1px solid black"}}
                                     />
                                 </a>
-                                {/* <p>
-                                <Button color="primary" id="toggler" style={{ marginBottom: '1rem' }}>
-                                Hobbies
-                                </Button>
-                                <UncontrolledCollapse toggler="#toggler">
-                                <Card>
-                                    <CardBody>
-                                    Baking desserts, blacksmithing, reading, playing games (board, card, and video),
-                                    travel (domestic and intenational), attending comic book conventions, learning new things, and coding. Just to list a few.
-                                    </CardBody>
-                                </Card>
-                                </UncontrolledCollapse>
-                                </p> */}
                             </div>
                         </div>
                         <hr />
                         <div className="row">
-                                <p>Hello there! I am Joshua, most call me Josh. I don't favor one over the other.</p> 
-                                <p>I have transitioned to Full Stack Web Development from a career in Avation.</p>
+                                <p>Hello there! I am Joshua, most call me Josh. I don't favor one over the other. I have transitioned to Full Stack Web Development from a career in Avation. </p>
                                 <p>I currently develop using <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>JavaScript</strong>. 
-                                    I am trained as a <strong>M.E.R.N. Stack Developer</strong>. 
-                                    That is <strong>MySQL Express React Node</strong>, as well as <strong>MongoDB Express React Node</strong>.</p>
-                                <p>You will find a portfolio containing some of my work below.</p>
+                                    I am trained as a <strong>M.E.R.N. Stack Developer</strong>. That is <strong>MySQL Express React Node</strong>, as well as <strong>MongoDB Express React Node</strong>. </p>
+                                <p>I am self taught with <strong>Squarespace</strong>, and love <strong>Font Awesome</strong> and <strong>Bootstrap</strong>. You will find a portfolio containing some of my work below. </p>
+                                <p>If you like what you see, use the form on my contact page to reach out to me. Thanks!</p>
                         </div>
                     </article>
                     </div>
