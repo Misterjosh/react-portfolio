@@ -18,7 +18,7 @@ const MyNavbar = (props) => {
   return (
     <div style={{ position: "fixed", width: "100%", zIndex: 1 }}>
       <Navbar className="color-nav" light expand="md">
-        <NavbarBrand id="logo" href="/">Joshua Brooks</NavbarBrand>
+        <NavbarBrand id="logo" href="/">Joshua Brooks <i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js-square"></i> </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
